@@ -5,7 +5,7 @@ import javax.swing.JFrame;
 public class Screen {
 	
 	private GraphicsDevice vc;
-	
+	//this class sets up a starting screen. aka makes sure its actually full screen and gets your specs
 	public Screen() {
 		GraphicsEnvironment env = GraphicsEnvironment.getLocalGraphicsEnvironment();
 		vc=env.getDefaultScreenDevice();
