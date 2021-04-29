@@ -49,7 +49,7 @@ public class Top extends JFrame{
 		g.drawString("You should probably press start right here", 440,500);//numbers means pixels
 		
 		//add a button to continue to game
-		JPanel panel1;
+		/*JPanel panel1;
 		JButton button1;
 		panel1= new JPanel();
 		button1= new JButton("HERE");
@@ -67,7 +67,7 @@ public class Top extends JFrame{
 	private class Listener implements ActionListener{
 		public void actionPerformed(ActionEvent e) {
 			this.count=1;
-		}
+		}*/
 	}
 
 }
